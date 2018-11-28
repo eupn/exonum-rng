@@ -81,7 +81,7 @@ fn test_exonum_rng_service_with_4_validators() {
 
     let mut prev_randomness = None;
     for round_num in 0..3 {
-        // Validators seed commitments, that is saved in storage, look like this:
+        // Validators seed commitments, that are saved in storage, look like this:
         // number       | 0    | 1    | 2    | 3    |
         // commitment   | None | None | None | None |
         //

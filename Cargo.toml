@@ -16,7 +16,7 @@ failure = "0.1.2"
 serde = "1.0"
 serde_derive = "1.0"
 
-vdf = { git="https://github.com/eupn/vdf-rs.git" }
+vdf = { git = "https://github.com/eupn/vdf-rs.git" }
 rand = "0.3"
 rug = "1.2.2"
 
