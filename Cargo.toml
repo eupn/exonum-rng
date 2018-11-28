@@ -1,0 +1,29 @@
+[package]
+name = "exonum-rng"
+version = "0.1.0"
+authors = ["Eugene P. <eupn@protonmail.com>"]
+description = "Exonum-based service of verifiable randomness beacon utilizing VDF-based protocol Unicorn"
+readme = "README.md"
+license = "Apache-2.0"
+keywords = ["exonum", "rng", "randomness"]
+categories = ["cryptography", "rng"]
+
+[dependencies]
+exonum = "0.9.2"
+exonum-configuration = "0.9.2"
+failure = "0.1.2"
+
+serde = "1.0"
+serde_derive = "1.0"
+
+vdf = { git="https://github.com/eupn/vdf-rs.git" }
+rand = "0.3"
+rug = "1.2.2"
+
+[dev-dependencies]
+exonum-testkit = "0.9.2"
+serde_json = "1.0"
+pretty_assertions = "=0.5.1"
+
+[features]
+default = []
